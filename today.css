@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+}
+
+.nav-bg-color,
+.side-bar-bg-color,
+input {
+  background-color: #1d1e20;
+}
+
+.orange-color {
+  background: linear-gradient(280.21deg, #dd5e89 -45.42%, #f7bb97 126.7%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.normal-color {
+  color: #a2a2a2;
+}
+
+.orange-border {
+  border: #ec9291 1px solid !important;
+}
+
+.orange-bg-color {
+  background: linear-gradient(280.21deg, #dd5e89 -45.42%, #f7bb97 126.7%);
+}
+
+.main-bg {
+  background-color: #282a2c;
+}
+
+input {
+  outline: none;
+  border: none;
+  color: white;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.157);
+}
+
+a:hover {
+  text-decoration: none !important;
+}
